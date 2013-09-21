@@ -113,7 +113,7 @@ class ContextIO(object):
                 )
             
             if self.debug == 'print':
-                print message
+                print(message)
             elif self.debug == 'log':
                 logging.debug(message)
 
